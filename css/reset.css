@@ -131,3 +131,7 @@ table {
 input:focus {
   outline: none;
 }
+a {
+  color: rgb(60, 60, 60);
+  text-decoration: none;
+}
