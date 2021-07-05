@@ -1,4 +1,8 @@
 :root {
   --yellow: #ffe811;
   --yellow_2: #f9e000;
+  --gray_bar: #c7c7c7;
+  --gray_background: rgb(242, 242, 242);
+  --horizontal-space: 25px;
+  --main-border: 1px solid var(--gray_bar);
 }

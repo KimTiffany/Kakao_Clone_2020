@@ -2,15 +2,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 60px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 40px var(--horizontal-space);
 }
 .screen-header__title {
   font-size: 28px;
   font-weight: 300;
 }
 .screen-header__icons span {
-  margin-left: 35px;
+  margin-left: 20px;
   font-weight: 200;
+}
+.screen-header__icons span :hover {
+  color: var(--yellow_2);
+  transition: color 0.25s ease-in-out;
+  font-size: large;
+  transition: font-size 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
 }

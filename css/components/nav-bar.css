@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: rgb(238, 238, 238);
+  background-color: var(--gray_background);
   padding: 15px 40px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
@@ -13,27 +13,25 @@
 }
 .nav__link {
   position: relative;
-  color: rgb(60, 60, 60);
+  color: #3c3c3c;
 }
 
 .nav__notification {
-  background-color: rgb(252, 77, 77);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 400;
   position: absolute;
   left: 15px;
   bottom: 15px;
+}
+
+.nav__notification:hover {
+  font-size: 18px;
+  transition: font-size 0.25s ease-in-out;
 }
 .nav__link:hover {
   color: var(--yellow_2);
   transition: color 0.25s ease-in-out;
   transition-delay: color 2s ease-in-out;
+  font-size: 18px;
+  transition: font-size 0.25s ease-in-out;
 }
 .nav__elipse {
   background-color: rgb(252, 77, 77);
