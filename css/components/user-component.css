@@ -22,6 +22,9 @@
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
 }
+.user-component__subtitle i {
+  color: red;
+}
 .user-component__avatar__xl {
   width: 70px;
   height: 70px;

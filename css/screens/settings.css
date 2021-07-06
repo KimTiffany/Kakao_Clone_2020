@@ -1,0 +1,30 @@
+.settings-setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid var(--gray_background);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 300;
+}
+.settings-setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  color: rgb(94, 94, 94);
+}
+.settings-setting :hover {
+  color: var(--yellow_2);
+  transition: color 0.25s ease-in-out;
+  transition-delay: color 2s ease-in-out;
+  font-size: 24px;
+  transition: font-size 0.25s ease-in-out;
+  cursor: pointer;
+}
+.settings-setting__collumn:last-child {
+  opacity: 0.5;
+  font-weight: 200;
+}
+.settings-setting__notification i {
+  color: red;
+  opacity: 0.5;
+}

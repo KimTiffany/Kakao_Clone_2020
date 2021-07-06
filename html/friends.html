@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +9,7 @@
       src="https://kit.fontawesome.com/8ea2af2689.js"
       crossorigin="anonymous"
     ></script>
-    <title>Chats - Kakao Clone</title>
+    <title>Friends - Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -30,45 +30,61 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">Friends</h1>
       <div class="screen-header__icons">
         <span>
-          <i class="fas fa-search"></i>
-        </span>
-        <span>
-          <i class="far fa-comment"></i>
+          <a class="nav__link" href="search.html"
+            ><i class="fas fa-search"></i
+          ></a>
         </span>
         <span>
           <i class="fas fa-music"></i>
         </span>
-
         <span>
-          <i class="fas fa-cog"></i>
+          <span class="search-settings__elipse"></span>
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
-
-    <main class="main-screen">
+    <a id="friends-display-link">
+      <i class="fas fa-exclamation-circle"></i>
+      Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__collumn">
+          <img
+            src="../images/Tiffany_Profile_1.png"
+            class="user-component__avatar user-component__avatar__xl"
+          />
+          <div class="user-component__ text">
+            <h4 class="user-component__title">Tiffany</h4>
+          </div>
+        </div>
+        <div class="user-component__collumn"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen_-channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
         <div class="user-component">
           <div class="user-component__collumn">
             <img
-              src="images/Tiffany_Profile_1.png"
+              src="../images/Tiffany_Profile_1.png"
               class="user-component__avatar user-component__avatar__sm"
             />
-            <div class="user-component__text">
+            <div class="user-component__ text">
               <h4 class="user-component__title user-component__title--not-bold">
-                Tiffany
+                Channel
               </h4>
-              <h6 class="user-component__subtitle">
-                  Dinner will be at 6:30 on Friday
-            </h6>
-   
-              
             </div>
           </div>
           <div class="user-component__collumn">
-            <span class="user-component__time">3:15</span>
-            <div class="badge">5</div>
+            <div><span>2</span> <i class="fas fa-chevron-right fa-xs"></i></div>
           </div>
         </div>
       </div>
@@ -77,17 +93,19 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
+            ><i class="fas fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">5</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="search.html"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav__link" href="search.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
