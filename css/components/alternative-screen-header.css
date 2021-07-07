@@ -9,13 +9,23 @@
   font-size: 28px;
   font-weight: 300;
 }
+.alt-header__collumn {
+  width: 33%;
+}
 .alt-header__collumn:first-child {
   margin-right: auto;
 }
 .alt-header__collumn:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
-
+.alt-header__collumn:nth-child(2) {
+  text-align: center;
+}
+.alt-header__collumn span:last-child {
+  margin-left: 15px;
+}
 .alt-header__collumn i:hover {
   color: var(--yellow_2);
   transition: color 0.25s ease-in-out;

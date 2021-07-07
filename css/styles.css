@@ -21,7 +21,6 @@
 body {
   color: #3c3c3c;
   font-family: "Poppins", sans-serif;
-  height: 200vh;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);

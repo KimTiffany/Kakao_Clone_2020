@@ -39,10 +39,63 @@
           <a class="nav__link" href="search.html"
             ><i class="fas fa-search fa-lg"></i></a
         ></span>
-        <span><i class="fas fa-align-justify fa-lg"></i></span>
+        <span>
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-align-justify fa-lg"></i
+          ></a>
+        </span>
       </div>
     </header>
 
-    <main class="main-screen settings-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Wednesday, June 16th, 2021</div>
+      <div class="message-row message-row__own">
+        <div class="message-row__content">
+          <div class="message__message">
+            <span class="message__bubble">What time will dinner be at?</span>
+            <span class="message__time">2:45</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="../images/Tiffany_Profile_1.png" alt="" />
+        <div class="message-row__content">
+          <span class="message__author">Tiffany</span>
+          <div class="message__message">
+            <span class="message__bubble"
+              >Let me get back to you with a time</span
+            >
+            <span class="message__time">2:53</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="../images/Tiffany_Profile_1.png" alt="" />
+        <div class="message-row__content">
+          <span class="message__author">Tiffany</span>
+          <div class="message__message">
+            <span class="message__bubble"
+              >Dinner will be at 6:30 on Friday</span
+            >
+            <span class="message__time">3:15</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__collumn">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__collumn">
+        <input type="text" placeholder="Type Here..." />
+        <i class="far fa-laugh-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
   </body>
 </html>
