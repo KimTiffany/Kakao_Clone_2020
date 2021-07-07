@@ -10,6 +10,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alternative-screen-header.css";
+@import "components/no-desktop.css";
 
 /* Screens */
 @import "screens/login.css";

@@ -1,0 +1,21 @@
+#no-desktop {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  top: 0;
+}
+
+#no-desktop span {
+}
+
+@media screen and (max-width: 600px) {
+  #no-desktop {
+    display: none;
+  }
+}
